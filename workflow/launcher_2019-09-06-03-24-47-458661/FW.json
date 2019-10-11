@@ -1,0 +1,43 @@
+{
+    "spec": {
+        "_tasks": [
+            {
+                "script": [
+                    "echo \"Hello I am task three. I wait on task 1.\""
+                ],
+                "use_shell": true,
+                "_fw_name": "ScriptTask"
+            }
+        ]
+    },
+    "fw_id": 3,
+    "created_on": "2019-09-06T03:24:47.278596",
+    "updated_on": "2019-09-06T03:24:47.464669",
+    "launches": [
+        {
+            "fworker": {
+                "name": "Automatically generated Worker",
+                "category": "",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 3,
+            "launch_dir": "C:\\Users\\Kramer\\Downloads\\fireworks-master\\fw_tutorials\\workflow\\launcher_2019-09-06-03-24-47-458661",
+            "host": "DESKTOP-QCGM0KH",
+            "ip": "192.168.1.110",
+            "trackers": [],
+            "action": null,
+            "state": "RUNNING",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2019-09-06T03:24:47.463669",
+                    "updated_on": "2019-09-06T03:24:47.463669"
+                }
+            ],
+            "launch_id": 2
+        }
+    ],
+    "state": "RUNNING",
+    "name": "Task3"
+}
